@@ -1,0 +1,209 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    text-align: center;
+    margin-top: 100px;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input {
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+}
+
+nav {
+    background-color: #333;
+    position: fixed; 
+    width: 100%;
+    top: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin: 0;
+}
+
+nav a {
+    display: block;
+    color: white;
+    padding: 14px 25px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #4CAF50;
+}
+
+nav a.active {
+    background-color: #4CAF50;
+}
+
+.feed_body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.feed {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.book-post {
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    padding: 100px;
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+}
+
+.book {
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    padding: 100px;
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+}
+
+.book-post h2 {
+    margin: 0;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.book-post p {
+    margin: 5px 0;
+}
+
+.add_button {
+    font-size: 18px;
+    padding: 5px 10px;
+    background-color: #2196F3;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    float: right;
+}
+
+.page_title {
+    text-align:center ;
+    padding: 5%;
+}
+
+.search-container {
+    text-align: center;
+}
+
+
+.content {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.bookshelf-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.bookshelf {
+    width: 500px;
+    height: 200px;
+    margin: 10px;
+    padding: 40px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.bookshelf h3 {
+    margin: 0;
+    padding: 5px;
+    font-size: 18px;
+    text-align: center;
+    background-color: #ddd;
+    border-radius: 5px;
+}
+
+.bookshelf .books-container {
+    height: 100px;
+    overflow-y: auto;
+}
+
+.add_button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.book-popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    z-index: 9999;
+}
+
+.book-popup h2 {
+    margin: 0;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.book-popup p {
+    margin: 5px 0;
+}
+
+.remove-button {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    border-radius: 4px;
+    cursor: pointer;
+}
